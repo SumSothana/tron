@@ -1,0 +1,225 @@
+span {
+    color: #f46e39;
+}
+
+
+/****  Header   *******/
+
+
+/*
+.shadow {
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1)inset;
+}
+
+.shadow::before,
+.shadow:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    top: 50%;
+}
+*/
+
+.nav-stt {
+    margin-left: 30%;
+}
+
+.nav-brand a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-gray {
+    background-color: #E1E1E1;
+}
+
+.nav-link {
+    color: rgb(120, 120, 120);
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #f46e39;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background: #E1E1E1;
+}
+
+
+/******** carousel   ****************************************/
+
+.carousel-item img {
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-item {
+    height: 450px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    bottom: 200px;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+}
+
+.slider-btn {
+    margin-top: 30px;
+}
+
+.slider-btn .btn {
+    background-color: #f46e39;
+}
+
+
+/********* Topic ********************/
+
+.para {
+    background-color: #E1E1E1;
+    font-size: 20px;
+    margin-top: 30%;
+}
+
+.bg-para {
+    height: 400px;
+    background: url(../resource/iwatch.gif);
+}
+
+
+/*****  Brand  *********************/
+
+.brand-bg img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50%;
+}
+
+
+/******* footer *****************************************/
+
+.foot ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(71, 70, 70);
+}
+
+.foot ul li a:hover {
+    color: #f46e39;
+}
+
+
+/* @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+*/
+
+.animated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100, 0, 0);
+        transform: translate3d(100px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100px, 0);
+        transform: translate3d(0, -100px, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100px, 0, 0);
+        transform: translate3d(-100px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}

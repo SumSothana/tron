@@ -1,0 +1,25 @@
+.card {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+.card .shadow-lg {
+    background: chocolate;
+}
+
+.card-title {
+    color: chocolate;
+}
+
+.card-body a {
+    padding: 15px;
+    background: chocolate;
+    color: white;
+    margin-left: 15%;
+}
